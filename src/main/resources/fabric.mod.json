@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "armorunderwear",
+  "version": "${version}",
+  "name": "Armor Underwear Fabric",
+  "description": "The mod is primarily a utility for the EnvironmentZ mod in Minercaft 1.20.1: It lets you add (and remove) special liners to your existing armor -- underwear, for better temperature control. Inspired By Armor Underwear Mod by The_Wabbit0101 - this mod is meant to be a port of the original mod to Fabric",
+  "authors": [
+    "AdamW78"
+  ],
+  "contact": {
+    "website": "www.awdevelopment.org",
+    "repo": "https://github.com/AdamW78/Armor-Underwear-Fabric.git"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/armorunderwear/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.awdevelopment.armorunderwear.client.ArmorUnderwearFabricClient"
+    ],
+    "main": [
+      "org.awdevelopment.armorunderwear.ArmorUnderwearFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
